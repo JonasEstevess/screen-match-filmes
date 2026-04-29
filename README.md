@@ -1,15 +1,51 @@
-# NewFirst
+# Screen Match Filmes
 
-Projeto de estudos em Java com exemplos iniciais de entrada de dados, estruturas condicionais, loops e manipulação de informações sobre filmes.
+Projeto desenvolvido em Java para praticar conceitos iniciais da linguagem usando um sistema simples relacionado a filmes, avaliacoes e classificacao.
 
-## Estrutura
+## Sobre o projeto
 
-- `src/Main.java`: exemplo principal com variaveis, media e classificacao.
-- `src/Condicional.java`: exemplo de uso de estruturas condicionais.
-- `src/Leitura.java`: exemplo de leitura de dados pelo terminal.
-- `src/Loop.java`: exemplo de repeticao para calcular media de avaliacoes.
+O **Screen Match Filmes** reune exercicios basicos de Java com foco em:
+
+- Declaracao e uso de variaveis
+- Operadores aritmeticos
+- Estruturas condicionais
+- Lacos de repeticao
+- Entrada de dados pelo terminal
+- Calculo de media de avaliacoes
+- Exibicao de informacoes sobre filmes
+
+## Tecnologias utilizadas
+
+- Java
+- IntelliJ IDEA
+- Git e GitHub
+
+## Estrutura do projeto
+
+```text
+screen-match-filmes/
++-- src/
+|   +-- Main.java
+|   +-- Condicional.java
+|   +-- Leitura.java
+|   +-- Loop.java
++-- README.md
++-- .gitignore
+```
 
 ## Como executar
+
+Clone o repositorio:
+
+```bash
+git clone https://github.com/JonasEstevess/screen-match-filmes.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd screen-match-filmes
+```
 
 Compile os arquivos Java:
 
@@ -17,9 +53,29 @@ Compile os arquivos Java:
 javac src/*.java
 ```
 
-Execute a classe desejada:
+Execute a classe principal:
 
 ```bash
 java -cp src Main
 ```
 
+Tambem e possivel executar outras classes do projeto:
+
+```bash
+java -cp src Condicional
+java -cp src Leitura
+java -cp src Loop
+```
+
+## Funcionalidades praticadas
+
+- Exibicao de dados de um filme
+- Calculo de media de notas
+- Classificacao baseada na avaliacao
+- Verificacao de plano de assinatura
+- Leitura de informacoes digitadas pelo usuario
+- Repeticao para coletar multiplas avaliacoes
+
+## Autor
+
+Desenvolvido por **Jonas Esteves**.
