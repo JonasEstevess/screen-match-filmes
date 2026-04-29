@@ -76,6 +76,5 @@ java -cp src Loop
 - Leitura de informacoes digitadas pelo usuario
 - Repeticao para coletar multiplas avaliacoes
 
-## Autor
-
-Desenvolvido por **Jonas Esteves**.
+## 👨‍💻 made by
+- [Jonas Esteves](https://github.com/JonasEstevess)
